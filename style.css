@@ -1,0 +1,585 @@
+/* -----------
+google fontss
+------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* -----------
+body part
+------------*/
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* -----------
+header menu 
+------------*/
+
+.header{
+    position: absolute;
+    color: white;
+    margin-top: -20px;
+    padding: 0 8%;
+    width: 80%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuIcon{
+    color: white;
+    font-size: 16px;
+    padding: 10% 10%;
+    display: none;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-right: 30px;
+    transition: color 1s ease;
+}
+
+.navbar ul li a:hover{
+    color: rgba(224, 44, 109, 1);
+}
+
+.login{
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginButton{
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 24px 10px 24px;
+    font-size: 16px;
+}
+
+.loginButton i{
+    color: white;
+    font-size: 16px;
+    padding-right: 8px;
+    transition: transform 1s ease ;
+}
+
+.loginButton:hover i{
+    transform: rotate(360deg);
+}
+
+.loginButton a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------
+banner style 
+------------*/
+
+.banner{
+    display: flex;
+    background-color: rgba(45, 37, 160, 1);
+    height: 100vh;
+    padding: 0 10% ;
+    margin-bottom: 50px;
+}
+
+.bannerInfo{
+    width: 50%;
+    margin-top: 100px;
+    padding-right: 5%;
+}
+
+.bannerTitle{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.bannerButton{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px 24px 10px 24px;
+}
+
+.bannerButton i{
+    padding-left: 10px;
+    transition: transform 1s ease , padding-left 1s ease;
+}
+
+.bannerButton:hover i{
+    transform: rotate(360deg);
+    padding-left: 40px;
+}
+
+.bannerImage{
+    width: 50%;
+    position: relative;
+    top: 120px;
+    padding-right: 5%;
+}
+
+.bannerImage img{
+    width: 110%;
+    transition: transform 1s ease-in-out;
+}
+
+.bannerImage:hover img{
+    transform: scale(1.2);
+}
+
+/* ---------
+player style 
+-----------*/
+
+.playersSection{
+    padding: 0 10%;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-row-gap: 10px;
+}
+
+.player{
+    width: 90%;
+    margin: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.playerDetail{
+    padding: 15px;
+}
+
+.playerImage{
+    overflow: hidden;
+}
+
+.playerImage img{
+    width: 100%;
+    margin-bottom: -15px;
+    transition: transform 2s ease-in-out;
+}
+
+.playerImage:hover img{
+    transform: scale(1.4) rotate(20deg) skew(-5deg);
+}
+
+.playerName{
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+.description{
+    font-size: 14px;
+    color: rgb(145, 142, 142);
+    font-weight: normal;
+}
+
+
+/* ---------- 
+highlights 
+------------*/
+
+.highlights{
+    padding: 8%;
+}
+.hghlight{
+    display: flex;
+}
+
+.highlightDescription{
+    padding-right: 5%;
+    width: 50%;
+}
+
+.highlightTitle{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.highlightText{
+    font-size: 14px;
+    color: rgba(108, 108, 108, 1);
+    margin-bottom: 40px;
+}
+
+.hghlightImage{
+    padding-right: 5%;
+    width: 50%;
+}
+
+.hghlightImage img{
+    width: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.hghlightImage:hover img{
+    transform: scale(1.2);
+}
+
+/* --------- 
+winner 
+-----------*/
+
+.winnerSection{
+    padding: 0 8%;
+    margin-bottom: 80px;
+}
+
+.winners{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.winner{
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.winnerDetail{
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.winnerImage{
+    overflow: hidden;
+}
+
+.winnerImage img{
+    width: 100%;
+    height: 290px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+
+.winnerImage:hover img{
+    transform: scale(1.4) rotate(10deg);
+}
+
+.winnerName{
+    position: absolute;
+    height: 197px;
+    top: -7.5%;
+    width: 93.7%;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(233, 21, 99 , .4);
+    border-radius: 10px;
+}
+
+.winnerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.runnerUp{
+    color: rgba(108, 108, 108, 1);
+    font: 14px;
+}
+
+span, .year{
+    color: rgb(233, 21, 99);
+    font-size: 40px;
+}
+
+
+/* ---------- 
+sponsor style 
+------------*/
+.sponsorSection{
+    padding: 0 8%;
+}
+
+.sponsors{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.sponsor{
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.sponsorTitle{
+    font-size: 45px;
+    text-align: center;
+}
+
+.sponsorDetail{
+    padding: 15px;
+}
+
+.sponsorImage{
+    overflow: hidden;
+}
+
+.sponsorImage img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out;
+}
+
+.sponsorImage:hover img{
+    transform: scale(1.4) rotate(-20deg);
+}
+
+.sponsorName{
+    font-size: 25px;
+    text-align: center;
+    color: rgba(108, 108, 108, 1);
+}
+
+
+/* ----------
+    footer 
+-----------*/
+
+.footer{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 390px;
+    height: 110px;
+}
+
+.icons{
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.icons li {
+    margin:8px;
+    padding: 15px;
+    height: 20px;
+    width: 20px;
+    background-color: #e2e3e7;
+    border-radius: 50%;
+}
+
+.icon{ 
+    color: #898a8d; 
+}
+.icon i{
+    font-size: 20px;
+    transition: color 1s ease , transform 1s ease;
+}
+
+.icon:hover i{
+    color: rgb(245, 37, 141);
+    transform: rotate(45deg);
+}
+
+.copyright{
+    text-align: center;
+}
+
+
+/* ----------
+    respossive
+-----------*/
+
+/* ----------
+    mobile
+-----------*/
+
+@media only screen and (max-width:688px){
+
+    /* ----------
+        header
+    -----------*/
+    
+    .header{
+        padding: 4%;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10% 0;
+    }
+
+    .menuIcon{
+        padding-left: 30px;
+        display: block;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .loginButton{
+        padding: 5px 14px 5px 14px;
+        font-size: 16px;
+        margin-right: -10%;
+    }
+
+    /* ----------
+         banner
+    -----------*/
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        height: 120vh;
+    }
+    .bannerInfo{
+        margin-top: 60px;
+        width: 100%;
+        margin-bottom: -70px;
+    }
+
+    .bannerTitle{
+        font-size: 36px;
+    }
+
+    .bannerImage{
+        width: 100%;
+    }
+
+    .bannerImage img{
+        width: 95%;
+    }
+
+    /* ----------
+         player
+    -----------*/
+
+    .playersSection{
+        padding: 0 4%;
+    }
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    /* ----------
+         highlights
+    ----------*/
+
+    .highlights{
+        padding: 4%;
+    }
+    .hghlight{
+        flex-direction: column;
+    }
+    
+    .highlightDescription{
+        width: 90%;
+        padding: 5%;
+    }
+
+    .highlightTitle{
+        font-size: 30px;
+    }
+
+    .hghlightImage{
+        width: 90%;
+        padding: 5%;
+    }
+
+    /* ----------
+         winner
+-   ----------*/
+
+    .winnerSection{
+        padding: 4%;
+    }
+    
+    .winners{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    
+    .winner{
+        width: 95%;
+    }
+
+    .winnerImage img{
+        width: 100%;
+        height: 298px;
+    }
+
+    .winnerName{
+        padding-top: 100px;
+        height: 44.5%;
+        width: 92.5%;
+    }
+
+    .runnerUp span , .year{
+        font-size: 30px;
+    }
+
+    /* ----------
+        sponsors
+    -----------*/
+
+    /*  */
+    .sponsorSection{
+        padding: 4%;
+    }
+    
+    .sponsors{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    
+    .sponsor{
+        width: 95%;;
+    }
+
+    .sponsorImage img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    /* ----------
+        footer 
+    -----------*/
+
+    .footer{
+        width: 80%;
+        padding: 4%;
+    }
+
+    .logo{
+        width: 100%;
+    }
+    
+}
+
+
